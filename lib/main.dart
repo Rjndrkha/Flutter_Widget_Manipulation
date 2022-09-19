@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'dart:math';
 
+import 'package:flutter_widget_manipulation/praktikum2/prespective.dart';
+import 'package:flutter_widget_manipulation/praktikum2/prespective2.dart';
+
 void main() {
   runApp(const MyApp());
 }
@@ -16,7 +19,9 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const MyHomePage(title: 'Flutter Demo Home Page'),
+      home: PrespectivePage2(),
+      //PrespectivePage(),
+      //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
 }
