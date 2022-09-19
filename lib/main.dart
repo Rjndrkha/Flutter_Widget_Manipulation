@@ -3,6 +3,7 @@ import 'dart:math';
 
 import 'package:flutter_widget_manipulation/praktikum2/prespective.dart';
 import 'package:flutter_widget_manipulation/praktikum2/prespective2.dart';
+import 'package:flutter_widget_manipulation/praktikum3/flip.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,7 +20,8 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: PrespectivePage2(),
+      home: MyAppClock(),
+      //PrespectivePage2(),
       //PrespectivePage(),
       //const MyHomePage(title: 'Flutter Demo Home Page'),
     );
